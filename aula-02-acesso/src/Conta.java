@@ -58,6 +58,17 @@ public class Conta {
 	
 	 /* Construtores podem ter apenas um atributo inicialisavel, dois, ou todos*/
 	
+	//criação de construtor para contas sem limite
+	
+	public Conta(double saldo, String titular) {
+		this.saldo = saldo;
+		this.titular = titular;
+	}
+	
+	public Conta() {
+		// TODO Auto-generated constructor stub
+	}
+	
 
 	
 	
