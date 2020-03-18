@@ -32,6 +32,23 @@ public class Carro {
 		return velocidade += kms; //velocidade = velocidade + kms;
 	}
 	
+	/*
+	 * Os métodos podem ter modificadores de assinatura 
+	 * (palavras reservadas que alteram propriedades)
+	 *  eles serão estudados mais para frente de acordo com os assuntos em que se encaixam
+	 *  
+	 *   final: no contexto do uso de herança, significa que o método não pode ser sobrescrito 
+	 *   por classes filhas.
+	 *   
+	 *   abstract: as classes filhas (ou seja, que herdam caracteristicas desse método) são 
+	 *   obrigadas a implementar esse método
+	 *   
+	 *   static: o método é acessado diretamente pela classe, não pelo objeto instanciado.
+	 *   
+	 *   throws <exceptions> : indicam as excessões que o método joga
+	 * 
+	 *  */
+	
 	
 
 	public float getVelocidade() {
