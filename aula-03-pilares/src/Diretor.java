@@ -11,4 +11,10 @@ public class Diretor extends Funcionario implements Autenticavel {
 		return false;
 	}
 
+	@Override
+	public void teste() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

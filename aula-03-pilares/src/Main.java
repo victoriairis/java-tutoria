@@ -12,6 +12,8 @@ public class Main {
 
 		Vendedor vend = new Vendedor();
 		vend.setNome("Paulo"); // exemplo de método implementado na superclasse
+		Gerente ger = new Gerente();
+		
 	}
 
 }

@@ -20,6 +20,9 @@ public class Main {
 
 		System.out.println("Titular: " + c3.getTitular() + " Saldo: " +c3.getSaldo() + " Limite: " + c3.getLimite());
 
+		Cliente cliente = new Cliente("jose");
+		
+		
 	}
 
 }

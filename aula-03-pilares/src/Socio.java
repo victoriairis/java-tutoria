@@ -11,4 +11,12 @@ public class Socio implements Autenticavel {
 		return false;
 	}
 
+	@Override
+	public void teste() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
 }
